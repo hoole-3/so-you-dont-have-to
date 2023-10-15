@@ -1,0 +1,54 @@
+{
+  "id": "so-you-dont-have-to",
+  "title": "So You Don't Have To",
+  "version": "1.0.3",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "recommends": [
+      {
+        "id": "items-with-spells-5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "This module includes pre-made items, features, spells, organizations, and conditions - all built so you don't have to.",
+  "authors": [
+    {
+      "name": "Hoole",
+      "discord": ".hoole"
+    }
+  ],
+  "packs": [
+    {
+      "name": "sydht-items",
+      "label": "[SYDHT] Items",
+      "path": "packs/sydht-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "sydht-conditions",
+      "label": "[SYDHT] Conditions",
+      "path": "packs/sydht-conditions",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
