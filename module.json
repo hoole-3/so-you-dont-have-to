@@ -1,6 +1,9 @@
 {
   "id": "so-you-dont-have-to",
-  "title": "So You Don't Have To",
+  "title": "So You Don't Have To (fork by psyho)",
+  "url": "https://github.com/psyho/so-you-dont-have-to",
+  "manifest": "https://raw.githubusercontent.com/psyho/so-you-dont-have-to/main/module.json",
+  "download": "https://github.com/psyho/so-you-dont-have-to/archive/main.zip",
   "version": "1.0.3",
   "compatibility": {
     "minimum": "11",
